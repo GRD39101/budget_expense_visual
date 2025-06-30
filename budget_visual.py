@@ -15,9 +15,10 @@ def subscription_cost():
 
 
 def main():
+    subscription_name_input = subscription_name()
+    subscription_cost_input = subscription_cost()
     print(f'{subscription_name} cost ${subscription_cost}')
-    # subscription_name_input = subscription_name()
-    # subscription_cost_input = subscription_cost()
+
     # Do something with the inputs (e.g., create a chart)
 
 if __name__ == "__main__":
